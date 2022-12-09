@@ -1,1 +1,477 @@
 
+#Collection1:Projects
+
+
+[{
+  "_id": {
+    "$oid": "63842ca9b43f6e197b65f4f1"
+  },
+  "Project_name": "DatabaseSystems",
+  "manager_id": "63842d6f51c2ec8a74603a10",
+  "hourly_rate": {
+    "$numberDecimal": "40"
+  },
+  "hours": 160
+},{
+  "_id": {
+    "$oid": "63842d1eb43f6e197b65f4f2"
+  },
+  "Project_name": "Capstone",
+  "manager_id": "63842d5151c2ec8a74603a0f",
+  "hourly_rate": 45,
+  "hours": 180
+},{
+  "_id": {
+    "$oid": "63842db9b43f6e197b65f4f3"
+  },
+  "Project_name": "Mangement_Systems",
+  "manager_id": "63842edf51c2ec8a74603a11",
+  "hourly_rate": 50,
+  "hours": 200
+},{
+  "_id": {
+    "$oid": "63842e70b43f6e197b65f4f4"
+  },
+  "Project_name": "Software_Development",
+  "manager_id": "63842ef451c2ec8a74603a12",
+  "hourly_rate": 55,
+  "hours": 140
+},{
+  "_id": {
+    "$oid": "63842eb8b43f6e197b65f4f5"
+  },
+  "Project_name": "Neural Networks",
+  "manager_id": "63842f0d51c2ec8a74603a13",
+  "hourly_rate": 65,
+  "hours": 180
+}]
+
+
+
+
+
+#collectioins employees
+
+
+[{
+  "_id": {
+    "$oid": "638659418c53d5299e882a81"
+  },
+  "first_name": "Neron",
+  "last_name": "Greneham",
+  "email": "ngreneham0@businessweek.com",
+  "gender": "Male",
+  "phone": "374-753-3212",
+  "project-id": "63842ca9b43f6e197b65f4f1",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1612166400000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a82"
+  },
+  "first_name": "Desmond",
+  "last_name": "Naisbit",
+  "email": "dnaisbit1@fda.gov",
+  "gender": "Male",
+  "phone": "623-906-0564",
+  "project-id": "63842d1eb43f6e197b65f4f2",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1622793600000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a83"
+  },
+  "first_name": "Northrop",
+  "last_name": "Wilcher",
+  "email": "nwilcher2@nytimes.com",
+  "gender": "Male",
+  "phone": "485-985-1238",
+  "project-id": "63842db9b43f6e197b65f4f3",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1613030400000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a84"
+  },
+  "first_name": "Rayshell",
+  "last_name": "Goldsbrough",
+  "email": "rgoldsbrough3@php.net",
+  "gender": "Female",
+  "phone": "374-942-4898",
+  "data-joined": {
+    "$date": {
+      "$numberLong": "1609488000000"
+    }
+  },
+  "project-id": "63842e70b43f6e197b65f4f4"
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a85"
+  },
+  "first_name": "Daphna",
+  "last_name": "McNern",
+  "email": "dmcnern4@pagesperso-orange.fr",
+  "gender": "Female",
+  "phone": "466-966-2466",
+  "project-id": "63842eb8b43f6e197b65f4f5",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1632207600000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a86"
+  },
+  "first_name": "Ned",
+  "last_name": "Gother",
+  "email": "ngother5@sphinn.com",
+  "gender": "Male",
+  "phone": "374-801-2943",
+  "project-id": "63842ca9b43f6e197b65f4f1",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1627455600000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a87"
+  },
+  "first_name": "Mandy",
+  "last_name": "Scamaden",
+  "email": "mscamaden6@dion.ne.jp",
+  "gender": "Non-binary",
+  "phone": "367-813-1611",
+  "project-id": "63842d1eb43f6e197b65f4f2",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1636444800000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a88"
+  },
+  "first_name": "Lira",
+  "last_name": "Bozworth",
+  "email": "lbozworth7@archive.org",
+  "gender": "Female",
+  "phone": "169-609-6025",
+  "project-id": "63842db9b43f6e197b65f4f3",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1632466800000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a89"
+  },
+  "first_name": "Rori",
+  "last_name": "Alsobrook",
+  "email": "ralsobrook8@xing.com",
+  "gender": "Female",
+  "phone": "161-200-8506",
+  "project-id": "63842e70b43f6e197b65f4f4",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1362297600000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638659418c53d5299e882a8a"
+  },
+  "first_name": "Wildon",
+  "last_name": "Fibbings",
+  "email": "wfibbings9@google.com.hk",
+  "gender": "Male",
+  "phone": "258-603-0743",
+  "project-id": "63842eb8b43f6e197b65f4f5",
+  "date-joined": {
+    "$date": {
+      "$numberLong": "1412751600000"
+    }
+  }])
+  
+  
+  
+  
+  # collection3: Timesheet
+  
+  
+  [{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882ae7"
+  },
+  "employee-id": "638659418c53d5299e882a81",
+  "project-id": "63842ca9b43f6e197b65f4f1",
+  "date": {
+    "$date": {
+      "$numberLong": "1595487600000"
+    }
+  },
+  "employee-hours": {
+    "$numberDecimal": "123"
+  },
+  "status": " Rejected"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882ae8"
+  },
+  "employee-id": "638659418c53d5299e882a82",
+  "project-id": "63842d1eb43f6e197b65f4f2",
+  "date": {
+    "$date": {
+      "$numberLong": "1581926400000"
+    }
+  },
+  "employee-hours": {
+    "$numberDecimal": "140"
+  },
+  "status": "Approved"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882ae9"
+  },
+  "employee-id": "638659418c53d5299e882a83",
+  "project-id": "63842db9b43f6e197b65f4f3",
+  "date": {
+    "$date": {
+      "$numberLong": "1331967600000"
+    }
+  },
+  "employee-hours": 186,
+  "status": " Rejected"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882aea"
+  },
+  "employee-id": "638659418c53d5299e882a84",
+  "project-id": "63842e70b43f6e197b65f4f4",
+  "date": {
+    "$date": {
+      "$numberLong": "1504508400000"
+    }
+  },
+  "employee-hours": 156,
+  "status": " Pending"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882aeb"
+  },
+  "employee-id": "638659418c53d5299e882a85",
+  "project-id": "63842eb8b43f6e197b65f4f5",
+  "date": {
+    "$date": {
+      "$numberLong": "1621148400000"
+    }
+  },
+  "employee-hours": 159,
+  "status": " Pending"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882aec"
+  },
+  "employee-id": "638659418c53d5299e882a86",
+  "project-id": "63842ca9b43f6e197b65f4f1",
+  "date": {
+    "$date": {
+      "$numberLong": "1566111600000"
+    }
+  },
+  "employee-hours": 107,
+  "status": " Pending"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882aed"
+  },
+  "employee-id": "638659418c53d5299e882a87",
+  "project-id": "63842d1eb43f6e197b65f4f2",
+  "date": {
+    "$date": {
+      "$numberLong": "1446188400000"
+    }
+  },
+  "employee-hours": 118,
+  "status": " Pending"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882aee"
+  },
+  "employee-id": "638659418c53d5299e882a88",
+  "project-id": "63842db9b43f6e197b65f4f3",
+  "date": {
+    "$date": {
+      "$numberLong": "1588230000000"
+    }
+  },
+  "employee-hours": 100,
+  "status": " Rejected"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882aef"
+  },
+  "employee-id": "638659418c53d5299e882a89",
+  "project-id": "63842e70b43f6e197b65f4f4",
+  "date": {
+    "$date": {
+      "$numberLong": "1548230400000"
+    }
+  },
+  "employee-hours": 161,
+  "status": " Rejected"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af0"
+  },
+  "employee-id": "638659418c53d5299e882a8a",
+  "project-id": "63842eb8b43f6e197b65f4f5",
+  "date": {
+    "$date": {
+      "$numberLong": "1418630400000"
+    }
+  },
+  "employee-hours": 193,
+  "status": " Pending"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af1"
+  },
+  "employee-id": "638659418c53d5299e882a8b",
+  "project-id": "63842ca9b43f6e197b65f4f1",
+  "date": {
+    "$date": {
+      "$numberLong": "1590994800000"
+    }
+  },
+  "employee-hours": 141,
+  "status": "Approved"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af2"
+  },
+  "employee-id": "638659418c53d5299e882a8c",
+  "project-id": "63842d1eb43f6e197b65f4f2",
+  "date": {
+    "$date": {
+      "$numberLong": "1515830400000"
+    }
+  },
+  "employee-hours": 170,
+  "status": " Rejected"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af3"
+  },
+  "employee-id": "638659418c53d5299e882a8d",
+  "project-id": "63842db9b43f6e197b65f4f3",
+  "date": {
+    "$date": {
+      "$numberLong": "1513929600000"
+    }
+  },
+  "employee-hours": 135,
+  "status": " Rejected"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af4"
+  },
+  "employee-id": "638659418c53d5299e882a8e",
+  "project-id": "63842e70b43f6e197b65f4f4",
+  "date": {
+    "$date": {
+      "$numberLong": "1478242800000"
+    }
+  },
+  "employee-hours": 162,
+  "status": " Pending"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af5"
+  },
+  "employee-id": "638659418c53d5299e882a8f",
+  "project-id": "63842eb8b43f6e197b65f4f5",
+  "date": {
+    "$date": {
+      "$numberLong": "1370588400000"
+    }
+  },
+  "employee-hours": 110,
+  "status": " Rejected"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af6"
+  },
+  "employee-id": "638659418c53d5299e882a90",
+  "project-id": "63842ca9b43f6e197b65f4f1",
+  "date": {
+    "$date": {
+      "$numberLong": "1393488000000"
+    }
+  },
+  "employee-hours": 110,
+  "status": "Approved"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af7"
+  },
+  "employee-id": "638659418c53d5299e882a91",
+  "project-id": "63842d1eb43f6e197b65f4f2",
+  "date": {
+    "$date": {
+      "$numberLong": "1453276800000"
+    }
+  },
+  "employee-hours": 104,
+  "status": " Pending"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af8"
+  },
+  "employee-id": "638659418c53d5299e882a92",
+  "project-id": "63842db9b43f6e197b65f4f3",
+  "date": {
+    "$date": {
+      "$numberLong": "1339484400000"
+    }
+  },
+  "employee-hours": 138,
+  "status": "Approved"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882af9"
+  },
+  "employee-id": "638659418c53d5299e882a93",
+  "project-id": "63842e70b43f6e197b65f4f4",
+  "date": {
+    "$date": {
+      "$numberLong": "1564470000000"
+    }
+  },
+  "employee-hours": 136,
+  "status": "Approved"
+},{
+  "_id": {
+    "$oid": "63865ca88c53d5299e882afa"
+  },
+  "employee-id": "638659418c53d5299e882a94",
+  "project-id": "63842eb8b43f6e197b65f4f5",
+  "date": {
+    "$date": {
+      "$numberLong": "1580630400000"
+    }
+  },
+  "employee-hours": 131,
+  "status": " Rejected"
+}])
